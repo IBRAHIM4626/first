@@ -1,0 +1,19 @@
+.bottom-text {
+  position: absolute;
+  bottom: 20px; /* Adjust this value to position the text higher or lower */
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 100%;
+}
+.accordion-inline {
+  display: flex;
+  gap: 1rem; /* Space between accordion items */
+}
+.accordion-item {
+  flex: 1;
+  min-width: 0; /* Prevents items from overflowing the container */
+}
+.accordion-button {
+  white-space: nowrap; /* Prevents button text from wrapping */
+}

@@ -1,0 +1,17 @@
+.intro-text {
+  color: #5a5a5a;
+  font-size: 1.2rem;
+}
+.name-title {
+  color: #2c3e50;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.bg-image {
+  background-image: url("./bg.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Full height */
+  color: white; /* Optional: To make text visible over the image */
+}
